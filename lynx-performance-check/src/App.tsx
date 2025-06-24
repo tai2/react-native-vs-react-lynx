@@ -50,7 +50,7 @@ export function App() {
           <view style="background:lightskyblue;width:100%;height:100px" />
           <view style="background:yellow;width:100%;height:1000px" />
         </scroll-view>
-        <view style="width:50%;height:100%;display:linear;linear-direction:row;">
+        <view style="width:25%;height:100%;display:linear;linear-direction:row;background:whitesmoke;">
           <view
             main-thread:ref={tracerMTSRef}
             style={{
@@ -62,6 +62,8 @@ export function App() {
           >
             <text>MTDraggable</text>
           </view>
+        </view>
+        <view style="width:25%;height:100%;display:linear;linear-direction:row;">
           <view
             style={{
               height: "100px",
